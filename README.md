@@ -5,5 +5,5 @@ The package can be downloaded [here](https://github.com/digikraaft/laravel-payst
 
 # Usage
 1. Clone or Download this repo
-2. Create `.env` file with relevant database information
+2. Create `.env` file with relevant database and Paystack secret keys details
 3. Run migrations using the artisan command `php artisan migrate`
