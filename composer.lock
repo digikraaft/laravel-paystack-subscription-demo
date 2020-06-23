@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f1b5992f03f02c0bd82377a40450ec1",
+    "content-hash": "0f9d7a905a81759e9329e3301b650229",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -112,11 +112,17 @@
         },
         {
             "name": "digikraaft/laravel-paystack-subscription",
-            "version": "dev-master",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/digikraaft/laravel-paystack-subscription.git",
+                "reference": "afab8e59b36bfbeefe9f5db4e28469e78ce59369"
+            },
             "dist": {
-                "type": "path",
-                "url": "../laravel-paystack-subscription",
-                "reference": "e48ffa0ff3aa8f3197c92a3daf2957ef19c8780a"
+                "type": "zip",
+                "url": "https://api.github.com/repos/digikraaft/laravel-paystack-subscription/zipball/afab8e59b36bfbeefe9f5db4e28469e78ce59369",
+                "reference": "afab8e59b36bfbeefe9f5db4e28469e78ce59369",
+                "shasum": ""
             },
             "require": {
                 "digikraaft/paystack-php": "^1.0",
@@ -157,25 +163,7 @@
                     "Digikraaft\\PaystackSubscription\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Digikraaft\\PaystackSubscription\\Tests\\": "tests"
-                }
-            },
-            "scripts": {
-                "psalm": [
-                    "vendor/bin/psalm"
-                ],
-                "test": [
-                    "vendor/bin/phpunit"
-                ],
-                "test-coverage": [
-                    "vendor/bin/phpunit --coverage-html coverage"
-                ],
-                "format": [
-                    "vendor/bin/php-cs-fixer fix --allow-risky=yes"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -196,9 +184,7 @@
                 "paystack",
                 "subscription"
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2020-06-22T08:58:50+00:00"
         },
         {
             "name": "digikraaft/paystack-php",
@@ -6693,9 +6679,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "digikraaft/laravel-paystack-subscription": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

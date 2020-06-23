@@ -9,7 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
-        "digikraaft/laravel-paystack-subscription": "dev-master",
+        "digikraaft/laravel-paystack-subscription": "^1.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^6.3",
@@ -61,11 +61,5 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../laravel-paystack-subscription"
-        }
-    ]
+    }
 }
